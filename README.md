@@ -5,7 +5,7 @@
 NOTE: Im using Python 3.7.1 (latest version) if you want to download and install python
 please go to [Python's Official Website](https://python.org)
 
-# Map
+## Map
 **this walkthrough includes:**
 - strings
 - numbers and math operations
