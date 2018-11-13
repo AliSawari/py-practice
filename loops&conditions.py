@@ -88,3 +88,11 @@ if len(boys) is not 3:
 # same as above
 if len(boys) != 3:
   print('boyz are not 3')
+
+
+
+# loops and iteration
+
+# for
+for boy in boys:
+  print("this is boy %s" % boy)
