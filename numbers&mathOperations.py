@@ -2,9 +2,9 @@
 import math
 
 # whole Numbers
-myNum = 89
+myNum = 20
 # floats
-myNumFloat = 66.666
+myNumFloat = 20.0
 
 # addition
 print(45 + 98)
@@ -23,6 +23,12 @@ print(57 ** 2)
 
 # cube
 print(2 ** 3)
+
+# shorthands for do and assign
+myNum += 10 # this is the same as myNum = myNum + 1
+myNum -= 5 # ...
+myNum *= 2
+myNum /= 10
 
 # square root
 print(math.sqrt(16))
