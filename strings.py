@@ -5,6 +5,9 @@ myName = 'Ali'
 # variable injection
 print('hey my name is {}'.format(myName))
 
+# return the length of the string
+print(len('lets see the length'))
+
 # word counting
 print('Ali sawari Ali'.count(myName))
 
