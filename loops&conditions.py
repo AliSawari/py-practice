@@ -1,6 +1,9 @@
 # conditions, Loops, Logical operators
 
-# operators
+# ---------------------- (operators) -----------------------
+
+
+
 # equals/not to
 print(True == True) # outputs True
 print(False == True) # outputs False
@@ -27,7 +30,13 @@ print(12 or 0);
 print(not False) # => True
 print(not True) # => False
 
-# conditions
+
+
+
+# ---------------------- (conditions) -----------------------
+
+
+
 # if..else
 if True:
   print('its true')
@@ -90,9 +99,47 @@ if len(boys) != 3:
   print('boyz are not 3')
 
 
+# ---------- (loops and iteration) -----------------------
 
-# loops and iteration
 
 # for
 for boy in boys:
   print("this is boy %s" % boy)
+
+# range method is a common method in python
+# it sets a range to specify how many times to iterate
+for x in range(5):
+  print(x)
+
+# start:stop
+# note: stop wont be included
+for x in range(3,5):
+  print(x)
+
+# start:stop:skip 
+for x in range(2,8,2):
+  print(x)
+
+# while 
+# += is just a shorthand assignment, see numbers.py
+counter = 0
+while counter < 10:
+  print('counter: ', counter)
+  counter += 1
+
+# break statement
+# this will stop the iteration if a condition stands true
+counter = 0
+while True:
+  print('counter: ', counter)
+  counter += 1
+  if counter > 6:
+    break
+
+# continue statement
+# continue will skip the current element and goes to the next one
+# so the code below will print the odd numbers since we are skipping the even ones(x % 2 is 0)
+for x in range(10):
+  if x % 2 is 0:
+    continue
+  print(x)
