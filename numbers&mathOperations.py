@@ -1,4 +1,6 @@
 # Numbers and simple math operations in python
+# importing math module for basic math functions
+# for understanding modules see modules.py
 import math
 
 # whole Numbers
@@ -17,6 +19,9 @@ print(36 / 4)
 
 # multiplication
 print(11 * 2)
+
+# remainder of a division 
+print(9 % 2)
 
 # square
 print(57 ** 2)
