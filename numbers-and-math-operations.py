@@ -26,3 +26,9 @@ print(2 ** 3)
 
 # square root
 print(math.sqrt(16))
+
+# returns 2 in power of 6
+print(math.pow(2, 6))
+
+# returns the factorial of 4 
+print(math.factorial(4))
