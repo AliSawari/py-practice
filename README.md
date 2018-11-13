@@ -1,4 +1,4 @@
-# Python Best Practice :muscle: :running_man: 
+# Python Best Practice :snake: :muscle:
 
 **simple python syntax walkthrough :male_detective:**
 
