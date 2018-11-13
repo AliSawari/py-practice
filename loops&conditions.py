@@ -99,7 +99,11 @@ if len(boys) != 3:
   print('boyz are not 3')
 
 
-# ---------- (loops and iteration) -----------------------
+
+
+# --------------------- (loops and iteration) -----------------------
+
+
 
 
 # for
@@ -143,3 +147,24 @@ for x in range(10):
   if x % 2 is 0:
     continue
   print(x)
+
+
+# *PYTHON SEPCIAL TRICK* using else statement with loops!!!
+#  we can use else for loops. When the loop condition of "for" or "while" statement fails 
+# then code part in "else" is executed. If break statement is executed inside for loop then 
+# the "else" part is skipped. Note that "else" part is executed even if there 
+# is a continue statement.
+counter = 0
+while counter < 5:
+  print(counter)
+  counter += 1
+else:
+  print('the loop reached value %d' % counter)
+
+
+for x in range(1, 10):
+  if(x%5==0):
+    break
+  print(x)
+else:
+  print("this is not printed cuz we rached a break!")
