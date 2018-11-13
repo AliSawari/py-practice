@@ -20,4 +20,17 @@ print(len('two') < len('three'))
 print(True and False)
 print(True or False)
 print(12 or 0);
-print('Ali' and 'Sawari')
+
+# conditions
+if True:
+  print('its true')
+else:
+  print('no')
+
+name = 'john'
+age = 23
+
+if age > 18 and  age < 30:
+  print('Welcome here {}'.format(name))
+else:
+  print('you have to be more then 18 and less than 30 years old')
