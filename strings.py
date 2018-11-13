@@ -3,6 +3,9 @@
 
 myName = 'Ali'
 # variable injection
+# C style
+print('hey my name is %s' % myName)
+# using format method, I suggest this cuz C style could get a bit busy
 print('hey my name is {}'.format(myName))
 
 # return the length of the string
