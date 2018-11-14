@@ -23,3 +23,8 @@ print(Ali.age)
 
 # calling methods
 print(Ali.sayHi())
+
+Ahmad = Person('Ahmad', 19)
+print(Ahmad.name)
+print(Ahmad.age)
+print(Ahmad.sayHi())
