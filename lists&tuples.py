@@ -3,7 +3,15 @@
 
 fruits = ['banana','apple','orange','grape']
 
-print(fruits);
+# lets see whats inside
+print(fruits)
 
 # add an item to the list
 fruits.append('pineapple')
+
+# extend the list with another list
+fruits.extend(['pomegranate', 'apple', 'melon']);
+print(fruits)
+
+# how many apples are in the list
+print(fruits.count('apple'))
