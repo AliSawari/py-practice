@@ -46,6 +46,11 @@ else:
 name = 'john'
 age = 23
 
+if age > 18:
+  print('You are legally allowed to drive')
+else:
+  print('still too young to drive')
+
 # using and to combine 2 conditions
 # .format is a string method, see strings.py
 if age > 18 and  age < 30:
@@ -61,21 +66,21 @@ else:
   print('you have to be more then 18 and less than 30 years old')
 
 # using or to combine 2 conditions 
-if age>18 or name=='john':
+if age > 18 or name=='john':
   print('Welcome here {}'.format(name))
 else:
   print('you have to be more then 18 or your name should be john')
 
 # if...elif...else
 # elif is another if but in chains and stands for else if
-if age>18:
+if age > 18:
   print('Welcome here {}'.format(name))
 elif name == 'john':
   print('Welcome here {}'.format(name))
 else:
   print('you have to be more then 18 or your name should be john')
 
-# if in is keywords
+# if/in/is keywords
 # the in operator checks if there's a specified value inside a list
 # the is operator can be used for comparing variable to value 
 # but not variable to variable like ==
@@ -83,7 +88,7 @@ else:
 # to understand lists(arrays) please see lists&tuples.py
 boys = ['ali', 'ahmad', 'reza', 'mehdi']
 if 'ali' in boys:
-  print("Here's Ali")
+  print("Yup, Ali's Here")
 
 if len(boys) is 4:
   print('4 boyz')
