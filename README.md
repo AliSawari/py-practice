@@ -18,7 +18,9 @@ please go to **[Python's Official Website](https://python.org)**
 - modules
 
 ## Run
-`py strings.py`
+```sh
+py strings.py
+```
 
 ## Source 
 **I used [LearnPython.org](https://www.learnpython.org) to write these tutorials, I strongly recommend you to do the same**
