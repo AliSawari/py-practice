@@ -167,4 +167,4 @@ for x in range(1, 10):
     break
   print(x)
 else:
-  print("this is not printed cuz we rached a break!")
+  print("this is not printed cuz we reached a break!")
