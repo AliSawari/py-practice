@@ -44,4 +44,4 @@ print(pow(2, 6))
 # returns the factorial of 4 
 print(math.factorial(4))
 
-# the rest of the functions are in functions.py
+# the rest of the built-in functions are in functions.py
