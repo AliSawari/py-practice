@@ -32,3 +32,6 @@ print('Hello world its a nice day huh?'.split(' '))
 
 # encoding the string
 print('Lets see this in encode'.encode('ansi'))
+
+# insert a specified string between each character
+print('/'.join('Slash This'))

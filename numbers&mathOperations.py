@@ -39,7 +39,9 @@ myNum /= 10
 print(math.sqrt(16))
 
 # returns 2 in power of 6
-print(math.pow(2, 6))
+print(pow(2, 6))
 
 # returns the factorial of 4 
 print(math.factorial(4))
+
+# the rest of the functions are in functions.py
