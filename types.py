@@ -6,10 +6,10 @@ print("Hi Welcome!")
 # strings
 myName = 'Ali Sawari'
 
-# whole numbers
+# whole numbers or int
 myNum = 3.14
 
-# floating numbers
+# floating numbers or float
 myFlo = 14.6
 
 # booleans

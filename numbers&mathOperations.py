@@ -3,9 +3,9 @@
 # for understanding modules see modules.py
 import math
 
-# whole Numbers
+# whole Number or int
 myNum = 20
-# floats
+# floating Number or float
 myNumFloat = 20.0
 
 # addition
