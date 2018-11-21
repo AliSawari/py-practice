@@ -24,3 +24,21 @@ shopping_list = dict({
 })
 
 print(shopping_list['foo'])
+
+# to change a value simply:
+shopping_list['foo'] = 'indeed a bar'
+
+# you can use numbers as keys too 
+myData = {0:'a', 1:'b', 2: 'c'}
+
+print(myData)
+
+# dictionary methods
+
+# get will fetch an item in the dictionary, if it didnt exist, a default value 
+# is replaced
+print(myData.get(3, 'there is no such value'))
+
+# this method will erase all values in the dictionary
+myData.clear()
+print(myData)
