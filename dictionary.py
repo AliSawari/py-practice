@@ -5,21 +5,21 @@
 
 shopping_list = {
   'chocolate_bars': 2,
-  'apple': 4,
-  'milk': 2,
-  'frying_oil': 1 
+  'apples': 4,
+  'milks': 2,
+  'frying_oils': 1 
 }
 
 # accessing an item by its key
-print(shopping_list['apple'])
+print(shopping_list['apples'])
 
 # alternatively you can define a dictionary with the 'dict' built-in function
 # it takes tuples to specify the key and the value 
 shopping_list = dict({
   ('chocolate_bars', 2),
-  ('apple', 4),
-  ('milk', 2),
-  ('frying_oil', 1),
+  ('apples', 4),
+  ('milks', 2),
+  ('frying_oils', 1),
   ('foo', 'not bar')
 })
 
@@ -33,6 +33,12 @@ myData = {0:'a', 1:'b', 2: 'c'}
 
 print(myData)
 
+# using dictionary in loops 
+
+# printing the keys and the values 
+for x in shopping_list:
+  print("We have",shopping_list[x],x)
+
 # dictionary methods
 
 # get will fetch an item in the dictionary, if it didnt exist, a default value 
@@ -42,3 +48,10 @@ print(myData.get(3, 'there is no such value'))
 # this method will erase all values in the dictionary
 myData.clear()
 print(myData)
+
+# this method will create a copy from another dictionary
+shoppingList2 = shopping_list.copy()
+print(shoppingList2)
+
+# this method will return the keys in a dictionary
+print(shopping_list.keys())
