@@ -12,6 +12,7 @@ please go to **[Python's Official Website](https://python.org)**
 - strings
 - numbers and math operations
 - lists and tuples
+- dictionaries
 - conditions and loops (and logical operations)
 - functions
 - classes
