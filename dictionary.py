@@ -39,6 +39,9 @@ print(myData)
 for x in shopping_list:
   print("We have",shopping_list[x],x)
 
+# logical states 
+print('frying_oils' in shopping_list)
+
 # dictionary methods
 
 # get will fetch an item in the dictionary, if it didnt exist, a default value 
