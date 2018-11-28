@@ -1,0 +1,4 @@
+this is a simple file used to demonstrate how open() function works in python
+this is the second line
+ok here's three
+four
