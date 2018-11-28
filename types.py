@@ -29,6 +29,9 @@ myNum = int(3)
 myFlo = 14.6
 myFlo = float(14.6)
 
+# None is the same as null or undefined value, it holds nothing and shows nothing
+none = None
+
 # booleans
 myBool = True
 myBool = bool(True)
