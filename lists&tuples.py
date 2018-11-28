@@ -53,7 +53,7 @@ print(fruits.__add__(['eggs']))
 print(fruits) # the list doesnt contain 'eggs'
 
 # another bound method: __contains__
-# this is the same as print('apple' in fruits) whichi will result in True
+# this is the same as print('apple' in fruits) which will result in True
 print(fruits.__contains__('apple'))
 
 # bound method: this will return the actual size of the list in bytes
